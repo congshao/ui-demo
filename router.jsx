@@ -10,6 +10,12 @@ FlowRouter.route('/dashboard/overview', {
   }
 });
 
+FlowRouter.route('/dashboard/forms', {
+  action() {
+    ReactLayout.render(Dashboard, {content: <Forms />});
+  }
+});
+
 FlowRouter.route('/dashboard/reports', {
   action() {
     ReactLayout.render(Dashboard, {content: <Reports />});

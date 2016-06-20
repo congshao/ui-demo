@@ -17,14 +17,12 @@ Reports = React.createClass({
 		<div className="reports">
 			<div key="reports" className="reports-page ui-view main">
 				<div className="ng-scope"> 
-					<a href="/dashboard/overview" className="pull-right btn btn-primary btn-outline btn-rounded">Back to Overview</a> 
-					<h2>Reports <small>Work with Chart.js and D3</small></h2> 
+					<a href="/dashboard/overview" className="pull-right btn btn-primary btn-outline btn-rounded">返回主页</a>
+					<h2>个人信用查询 <small>企业版</small></h2>
 
 					<i className="fa fa-dashboard bg-fade"></i>
 					<div className="jumbotron"> 
-						<h1>Add Charts here</h1> 
-						<p>You can use C3.js or Chart.js</p> 
-						<p> <a className="btn btn-primary btn-lg btn-outline btn-rounded">Learn more</a> </p> 
+						<h1>开发中...</h1>
 					</div> 
 				</div>
 			</div>

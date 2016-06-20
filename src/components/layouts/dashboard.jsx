@@ -31,7 +31,7 @@ Dashboard = React.createClass({
             <div className="row"> 
               <div className="col-sm-3 col-md-2 sidebar"> 
                 <div className="text-center"> 
-                  <h2 className="brand">Ani Theme <br /><small>Free Meteor-React.js Edition</small></h2> 
+                  <h2 className="brand">锐茅科技 <br /><small>企业平台</small></h2>
                   <img src="/flat-avatar.png" className="user-avatar" />
                   <br /> 
                   <a href="/login" className="btn btn-white btn-outline btn-rounded btn-sm">Logout</a> 
@@ -39,27 +39,15 @@ Dashboard = React.createClass({
 
                 <ul className="nav nav-sidebar"> 
                   <li>
-                    <a href="/dashboard/overview">Overview</a>
+                    <a href="/dashboard/overview">主页</a>
                   </li> 
                   <li>
-                    <a href="/dashboard/reports">Reports</a>
+                    <a href="/dashboard/reports">个人信用查询</a>
                   </li>
                   <li>
-                    <a href="http://www.strapui.com/themes/ani-meteor-theme/">Premium MeteorJS Angular Edition</a>
-                  </li> 
-                  <li>
-                    <a href="http://startangular.com/product/ani-theme/">Free Angular version</a>
+                    <a href="/dashboard/forms">在线贷款</a>
                   </li>
-                  <li>
-                    <a href="http://www.strapui.com/ani-reactjs-theme">Premium React.js Edition</a>
-                  </li> 
-                  <li>
-                    <a href="http://www.strapui.com/ani-angularjs-theme">Premium AngularJS Edition</a>
-                  </li> 
-                  <li>
-                    <a href="http://www.strapui.com/themes/ani-laravel-theme/">Premium Laravel Edition</a>
-                  </li> 
-                </ul> 
+                </ul>
               </div>
 
               <div className="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main ng-scope ui-view">
