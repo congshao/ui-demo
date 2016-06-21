@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+dai.163.com	TRUE	/	FALSE	1999999999	LOANWAP	c9741daa438e9b49be2cc0c53c114556dff337e8
+dai.163.com	TRUE	/	FALSE	1999999999	SESSION	75b9abf4-5f5e-446f-8609-bafaa4a200ac
+
