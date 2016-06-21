@@ -122,63 +122,16 @@ Forms = React.createClass({
                     <div className="blankSpace"></div>
                     <div className="row">
                         <div className="col-sm-12">
-                            <h4 id="checkbox_title" className="text-left">贷款用途 <small>(至少选择一项)</small><span className="sup">*</span></h4>
+                            <h4 id="checkbox_title" className="text-left">贷款用途 <small>(至少填一项)</small><span className="sup">*</span></h4>
                         </div>
                     </div>
 
-                    <div className="row">
-                        <div className="col-sm-12">
-                            <label id="check_error" className="input_help_field input_help_field_invalid hide">Select at least one option</label>
-                        </div>
-                    </div>
+                    <input id="loan_amount" className="form-control input-lg required_field to_save_input loan_amount" placeholder="" type="text"/>
 
-                    <div className="row">
-                        <div className="col-sm-6 col-md-6 col-lg-4 check-height">
-                            <div className="squaredTwo">
-                                <input type="checkbox" className="to_save_checkbox" name="inlineRadioOptions" id="loan_purpose_tuition" value="option1"/>
-                                <label for="loan_purpose_tuition" className="radio-inline">
-                                    <span></span>
-                                    <div>学费</div>
-                                </label>
-                            </div>
-                        </div>
-                        <div className="col-sm-6 col-md-6 col-lg-4 check-height">
-                            <div className="squaredTwo">
-                                <input type="checkbox" className="to_save_checkbox" name="inlineRadioOptions" id="loan_purpose_university_housing" value="option2"/>
-                                <label for="loan_purpose_university_housing" className="radio-inline">
-                                    <span></span>
-                                    <div>住宿费</div>
-                                </label>
-                            </div>
-                        </div>
-                        <div className="col-sm-6 col-md-6 col-lg-4 check-height">
-                            <div className="squaredTwo">
-                                <input type="checkbox" className="to_save_checkbox" name="inlineRadioOptions" id="loan_purpose_health_insurance" value="option3"/>
-                                <label for="loan_purpose_health_insurance" className="radio-inline">
-                                    <span></span>
-                                    <div>医保</div>
-                                </label>
-                            </div>
-                        </div>
-                        <div className="col-sm-6 col-md-6 col-lg-4 check-height">
-                            <div className="squaredTwo">
-                                <input type="checkbox" className="to_save_checkbox" name="inlineRadioOptions" id="loan_purpose_meal_plan" value="option1"/>
-                                <label for="loan_purpose_meal_plan" className="radio-inline">
-                                    <span></span>
-                                    <div>伙食费</div>
-                                </label>
-                            </div>
-                        </div>
-                        <div className="col-sm-6 col-md-6 col-lg-4 check-height">
-                            <div className="squaredTwo">
-                                <input type="checkbox" className="to_save_checkbox" name="inlineRadioOptions" id="loan_purpose_meal_plan" value="option1"/>
-                                <label for="loan_purpose_meal_plan" className="radio-inline">
-                                    <span></span>
-                                    <div>其他杂费</div>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
+
+
+
+
 
                     <div className="row">
                         <button id="next" type="submit" className="pull-right btn btn-primary btn-outline btn-rounded" data-style="zoom-in" >
