@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07609bb9-7d03-4e03-be90-65b97f11344a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/Forms.jsx" afterPath="$PROJECT_DIR$/src/components/pages/Forms.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/overview.jsx" afterPath="$PROJECT_DIR$/src/components/pages/overview.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/reports.jsx" afterPath="$PROJECT_DIR$/src/components/pages/reports.jsx" />
     </list>
     <ignored path="ani-theme-meteor-react.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +26,8 @@
       <file leaf-file-name="Forms.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/pages/Forms.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -344,12 +341,12 @@
       <workItem from="1466295282128" duration="793000" />
       <workItem from="1466402575828" duration="5298000" />
       <workItem from="1466408824368" duration="1878000" />
-      <workItem from="1466490964203" duration="311000" />
+      <workItem from="1466490964203" duration="2037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18096000" />
+    <option name="totallyTimeSpent" value="19822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="815" extended-state="6" />
@@ -741,8 +738,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pages/Forms.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
           <folding />
         </state>
       </provider>
