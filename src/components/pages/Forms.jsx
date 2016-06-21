@@ -43,10 +43,19 @@ Forms = React.createClass({
                     </div>
                     <div className="row">
                         <div className="col-sm-12">
-                            <label for="school">学校</label>
+                            <label for="school">电话</label>
+                        </div>
+                        <div className="col-sm-12">
+                            <input id="phone_number" className="form-control to_save_input phone_field"  type="text"/>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-sm-12">
+                            <label for="school">家庭住址</label>
                             <input id="school" className="form-control input-lg required_field school text_field to_save_input" placeholder="" autocomplete="off" type="text"/>
                         </div>
                     </div>
+
                     <div className="row">
                         <div className="col-sm-12"><label>学历</label></div>
                         <div className="col-sm-6">
@@ -96,15 +105,6 @@ Forms = React.createClass({
                     </div>
 
                     <div className="row">
-                        <div className="col-sm-12">
-                            <label for="school">电话</label>
-                        </div>
-                        <div className="col-sm-12">
-                            <input id="phone_number" className="form-control to_save_input phone_field"  type="text"/>
-                        </div>
-                    </div>
-
-                    <div className="row">
                         <div className="col-sm-12"><label>您是怎么知道我们的</label></div>
                         <div className="col-sm-6">
                             <select id="how_did_you_hear_about_us" className="form-control to_save_select"><option value="-1">选项</option><option value="School Financial Aid or site">学校助学机构</option><option value="Referral from a Friend">朋友推荐</option><option value="Facebook">微信</option><option value="Google Search">百度</option><option value="Twitter">微博</option><option value="StupidSid">学信网</option><option value="The Globalizers">阿里巴巴</option><option value="Athletes USA">QQ</option><option value="La Unidad Latina">La Unidad Latina</option><option value="GOPYT">GOPYT</option><option value="News / Press article">News / Press article</option><option value="Schoold">Schoold</option><option value="Simple Tuition">Simple Tuition</option><option value="Other - please specify">Other - please specify</option></select>
@@ -122,63 +122,16 @@ Forms = React.createClass({
                     <div className="blankSpace"></div>
                     <div className="row">
                         <div className="col-sm-12">
-                            <h4 id="checkbox_title" className="text-left">贷款用途 <small>(至少选择一项)</small><span className="sup">*</span></h4>
+                            <h4 id="checkbox_title" className="text-left">贷款用途 <small>(至少填一项)</small><span className="sup">*</span></h4>
                         </div>
                     </div>
 
-                    <div className="row">
-                        <div className="col-sm-12">
-                            <label id="check_error" className="input_help_field input_help_field_invalid hide">Select at least one option</label>
-                        </div>
-                    </div>
+                    <input id="loan_amount" className="form-control input-lg required_field to_save_input loan_amount" placeholder="" type="text"/>
 
-                    <div className="row">
-                        <div className="col-sm-6 col-md-6 col-lg-4 check-height">
-                            <div className="squaredTwo">
-                                <input type="checkbox" className="to_save_checkbox" name="inlineRadioOptions" id="loan_purpose_tuition" value="option1"/>
-                                <label for="loan_purpose_tuition" className="radio-inline">
-                                    <span></span>
-                                    <div>学费</div>
-                                </label>
-                            </div>
-                        </div>
-                        <div className="col-sm-6 col-md-6 col-lg-4 check-height">
-                            <div className="squaredTwo">
-                                <input type="checkbox" className="to_save_checkbox" name="inlineRadioOptions" id="loan_purpose_university_housing" value="option2"/>
-                                <label for="loan_purpose_university_housing" className="radio-inline">
-                                    <span></span>
-                                    <div>住宿费</div>
-                                </label>
-                            </div>
-                        </div>
-                        <div className="col-sm-6 col-md-6 col-lg-4 check-height">
-                            <div className="squaredTwo">
-                                <input type="checkbox" className="to_save_checkbox" name="inlineRadioOptions" id="loan_purpose_health_insurance" value="option3"/>
-                                <label for="loan_purpose_health_insurance" className="radio-inline">
-                                    <span></span>
-                                    <div>医保</div>
-                                </label>
-                            </div>
-                        </div>
-                        <div className="col-sm-6 col-md-6 col-lg-4 check-height">
-                            <div className="squaredTwo">
-                                <input type="checkbox" className="to_save_checkbox" name="inlineRadioOptions" id="loan_purpose_meal_plan" value="option1"/>
-                                <label for="loan_purpose_meal_plan" className="radio-inline">
-                                    <span></span>
-                                    <div>伙食费</div>
-                                </label>
-                            </div>
-                        </div>
-                        <div className="col-sm-6 col-md-6 col-lg-4 check-height">
-                            <div className="squaredTwo">
-                                <input type="checkbox" className="to_save_checkbox" name="inlineRadioOptions" id="loan_purpose_meal_plan" value="option1"/>
-                                <label for="loan_purpose_meal_plan" className="radio-inline">
-                                    <span></span>
-                                    <div>其他杂费</div>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
+
+
+
+
 
                     <div className="row">
                         <button id="next" type="submit" className="pull-right btn btn-primary btn-outline btn-rounded" data-style="zoom-in" >
